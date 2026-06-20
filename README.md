@@ -1,26 +1,75 @@
-# Unity Portal
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# Unity
 
-[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.m)
-The project is in a reliable state and major changes are unlikely to happen.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/Unity)
 
-## Directory Structure
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-    .github/                    - GitHub Actions and workflows
-    applications/               - Application root containing all major components
-    ├── Unity.AutoUI/           - Automated end-to-end UI testing (Cypress)
-    ├── Unity.GrantManager/     - Grant management and adjudication solution
-    └── Unity.Tools/            - Supporting tools and services
-        ├── Unity.Metabase/     - Reserved for Metabase integration
-        ├── Unity.NginxData/    - Nginx HTTP server and reference files
-        ├── Unity.RabbitMQ/     - RabbitMQ message broker configuration
-        └── Unity.RedisSentinel/- Redis Sentinel high-availability setup
-    database/                   - Database configuration scripts
-    documentation/              - Solution documentation
-    COMPLIANCE.yaml             - BCGov PIA/STRA compliance status
-    CONTRIBUTING.md             - How to contribute
-    LICENSE                     - License
-    SECURITY.md                 - Security Policy and Reporting
+## Architecture
 
-## Documentation
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-- [Application Readme](applications/README.md)
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/Unity.git
+cd Unity
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/Unity`](https://github.com/Interested-Deving-1896/Unity) and mirrored through:
+
+```
+Interested-Deving-1896/Unity  ──►  OpenOS-Project-OSP/Unity  ──►  OpenOS-Project-Ecosystem-OOC/Unity
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/Unity/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
